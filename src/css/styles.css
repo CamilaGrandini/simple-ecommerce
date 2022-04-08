@@ -1,0 +1,75 @@
+body {
+  background-color: #fde4cf;
+}
+
+h3 {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+
+.product-box {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+.icons {
+  font-size: 88px;
+}
+.add-to-bag {
+  background-color: pink;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+button:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  text-decoration: none;
+  background-color: #ffcfd2;
+}
+
+.menu-item {
+  margin: 0 8px;
+  list-style: none;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+}
+
+.menu-item a{
+  font-family: cursive;
+  font-weight: bold;
+  margin: 0 8px;
+  list-style: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+.menu-item a:hover{
+  color: #cfbaf0;
+  transition: 0.5s;
+  text-decoration: none;
+
+}
